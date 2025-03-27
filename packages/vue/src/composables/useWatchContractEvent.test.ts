@@ -13,7 +13,7 @@ import { http, createWalletClient, parseEther } from 'viem'
 import type { WatchEventOnLogsParameter } from 'viem/actions'
 import { expect, test } from 'vitest'
 
-import { ref } from 'vue'
+import { ref } from 'vue-demi'
 import { useWatchContractEvent } from './useWatchContractEvent.js'
 
 const connector = config.connectors[0]!
