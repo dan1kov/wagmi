@@ -6,7 +6,7 @@ import {
 } from '@wagmi/core'
 import type { UnionCompute, UnionExactPartial } from '@wagmi/core/internal'
 import type { Abi, ContractEventName } from 'viem'
-import { computed, watchEffect } from 'vue'
+import { computed, watchEffect } from 'vue-demi'
 
 import type { ConfigParameter, EnabledParameter } from '../types/properties.js'
 import type { DeepMaybeRef } from '../types/ref.js'

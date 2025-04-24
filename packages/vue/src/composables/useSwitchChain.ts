@@ -12,7 +12,7 @@ import {
   type SwitchChainVariables,
   switchChainMutationOptions,
 } from '@wagmi/core/query'
-import type { Ref } from 'vue'
+import type { Ref } from 'vue-demi'
 
 import type { ConfigParameter } from '../types/properties.js'
 import type {

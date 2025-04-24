@@ -1,5 +1,5 @@
 import { expectTypeOf, test } from 'vitest'
-import type { Ref } from 'vue'
+import type { Ref } from 'vue-demi'
 
 import { useBalance } from './useBalance.js'
 
