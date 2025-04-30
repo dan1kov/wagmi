@@ -15,7 +15,7 @@ import type {
   UnionStrictOmit,
 } from '@wagmi/core/internal'
 import { hashFn } from '@wagmi/core/query'
-import { computed, type MaybeRef, unref } from 'vue'
+import { computed, type MaybeRef, unref } from 'vue-demi'
 
 import type { DeepMaybeRef, DeepUnwrapRef } from '../types/ref.js'
 

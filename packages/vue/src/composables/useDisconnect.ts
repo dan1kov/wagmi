@@ -8,7 +8,7 @@ import {
   type DisconnectVariables,
   disconnectMutationOptions,
 } from '@wagmi/core/query'
-import { computed, type Ref } from 'vue'
+import { computed, type Ref } from 'vue-demi'
 
 import type { ConfigParameter } from '../types/properties.js'
 import type {

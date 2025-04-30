@@ -5,7 +5,7 @@ import {
   type ResolvedRegister,
   watchChainId,
 } from '@wagmi/core'
-import { onScopeDispose, type Ref, readonly, ref } from 'vue'
+import { onScopeDispose, type Ref, readonly, ref } from 'vue-demi'
 
 import type { ConfigParameter } from '../types/properties.js'
 import { useConfig } from './useConfig.js'
