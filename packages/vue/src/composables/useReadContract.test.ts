@@ -1,7 +1,7 @@
 import { abi, address, bytecode, chain, wait } from '@wagmi/test'
 import { renderComposable, waitFor } from '@wagmi/test/vue'
 import { expect, test } from 'vitest'
-import { ref } from 'vue'
+import { ref } from 'vue-demi'
 
 import { useReadContract } from './useReadContract.js'
 

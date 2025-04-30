@@ -5,7 +5,13 @@ import {
   type ResolvedRegister,
   watchAccount,
 } from '@wagmi/core'
-import { onScopeDispose, reactive, readonly, type ToRefs, toRefs } from 'vue'
+import {
+  onScopeDispose,
+  reactive,
+  readonly,
+  type ToRefs,
+  toRefs,
+} from 'vue-demi'
 
 import type { ConfigParameter } from '../types/properties.js'
 import { updateState } from '../utils/updateState.js'

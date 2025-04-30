@@ -3,7 +3,7 @@ import { renderComposable, waitFor } from '@wagmi/test/vue'
 import { parseEther } from 'viem'
 import { expect, test } from 'vitest'
 
-import { ref } from 'vue'
+import { ref } from 'vue-demi'
 import { deepUnref } from '../utils/cloneDeep.js'
 import { useEstimateGas } from './useEstimateGas.js'
 

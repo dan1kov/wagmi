@@ -364,6 +364,9 @@ importers:
       '@wagmi/core':
         specifier: workspace:*
         version: link:../core
+      vue-demi:
+        specifier: ^0.14.10
+        version: 0.14.10(vue@3.4.27(typescript@5.9.2))
     devDependencies:
       '@nuxt/schema':
         specifier: ^3.11.2 || ^4.0.0

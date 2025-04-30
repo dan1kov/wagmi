@@ -1,5 +1,5 @@
 import type { Config, ResolvedRegister } from '@wagmi/core'
-import { hasInjectionContext, inject, unref } from 'vue'
+import { hasInjectionContext, inject, unref } from 'vue-demi'
 
 import {
   WagmiInjectionContextError,

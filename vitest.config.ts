@@ -14,6 +14,9 @@ const alias = {
 }
 
 export default defineConfig({
+  optimizeDeps: {
+    exclude: ['vue-demi'],
+  },
   server: {
     watch: {
       ignored: ['**/templates/**'],

@@ -99,7 +99,8 @@
   },
   "dependencies": {
     "@wagmi/connectors": "workspace:*",
-    "@wagmi/core": "workspace:*"
+    "@wagmi/core": "workspace:*",
+    "vue-demi": "^0.14.10"
   },
   "devDependencies": {
     "@nuxt/schema": "^3.11.2 || ^4.0.0",

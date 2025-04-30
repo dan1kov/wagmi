@@ -3,7 +3,7 @@ import { renderComposable, waitFor } from '@wagmi/test/vue'
 import { parseEther } from 'viem'
 import { beforeEach, expect, test } from 'vitest'
 
-import { ref } from 'vue'
+import { ref } from 'vue-demi'
 import { useBalance } from './useBalance.js'
 
 const address = accounts[0]

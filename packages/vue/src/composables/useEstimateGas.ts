@@ -10,7 +10,7 @@ import {
   type EstimateGasQueryKey,
   estimateGasQueryOptions,
 } from '@wagmi/core/query'
-import { computed } from 'vue'
+import { computed } from 'vue-demi'
 
 import type { ConfigParameter, QueryParameter } from '../types/properties.js'
 import type { DeepMaybeRef } from '../types/ref.js'
